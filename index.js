@@ -6,9 +6,9 @@ document.getElementById("push").innerHTML = automobiles;
 automobiles.unshift('helicopter','bike');
 document.getElementById("unshift").innerHTML = automobiles;
 
-var automobilesCopy = `Automobiles: ${automobiles}`;
+var automobilesCopy = `automobiles: ${automobiles}`;
 
-automobiles.pop('airplane');
+automobiles.pop('skateboard');
 document.getElementById("pop").innerHTML = automobiles;
 
 automobiles.shift('bike');
