@@ -6,12 +6,12 @@ document.getElementById("push").innerHTML = automobiles;
 automobiles.unshift('helicopter','bike');
 document.getElementById("unshift").innerHTML = automobiles;
 
-var automobilesCopy = `automobiles: ${automobiles}`;
+var automobilesCopy = `Automobiles: ${automobiles}`;
 
-automobiles.pop('skateboard');
+automobiles.pop();
 document.getElementById("pop").innerHTML = automobiles;
 
-automobiles.shift('bike');
+automobiles.shift();
 document.getElementById("shift").innerHTML = automobiles;
 
 document.getElementById("result").innerHTML = automobiles;
