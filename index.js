@@ -15,5 +15,3 @@ automobiles.shift();
 document.getElementById("shift").innerHTML = automobiles;
 
 document.getElementById("result").innerHTML = automobiles;
-
-
