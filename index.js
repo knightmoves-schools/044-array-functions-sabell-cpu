@@ -1,4 +1,4 @@
-const automobiles = ['car', 'truck', 'motorcycle'];
+var automobiles = ['car', 'truck', 'motorcycle'];
 
 automobiles.push('airplane','skateboard');
 document.getElementById("push").innerHTML = automobiles;
