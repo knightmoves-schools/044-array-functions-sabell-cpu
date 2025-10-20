@@ -5,7 +5,7 @@
 the index.js file
 - should create a variable named automobiles that contains car, truck, motorcycle
 - should add airplane and skateboard to the end of automobiles
-- should add helicopter and bike to the front of the automobiles
+- should add bike and helicopter to the front of the automobiles
 - should define a new variable called automobilesCopy and set it equal to a string template that contains the variable automobiles
 - should remove the last item from the end of the the automobiles
 - should remove the first item from the front of the automobiles
