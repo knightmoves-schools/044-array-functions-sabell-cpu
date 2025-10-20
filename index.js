@@ -1,6 +1,6 @@
-var automobiles = ['car', 'truck', 'motorcycle'];
+var automobiles = ['car','truck','motorcycle'];
 automobiles.push('airplane','skateboard');
-automobiles.unshift('helicopter','bike');
+automobiles.unshift('bike','helicopter');
 var automobilesCopy = `Automobiles: ${automobiles}`;
 automobiles.pop();
 automobiles.shift();
